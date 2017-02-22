@@ -1,6 +1,6 @@
-# spring-hello #
+# spring-redis #
 
-This repository demonstrates how to create a basic web application using Spring Framework.
+This repository demonstrates how to create a basic web application using Spring Framework and Redis.
 
 ### How do I get set up? ###
 
@@ -19,9 +19,6 @@ This repository demonstrates how to create a basic web application using Spring 
 * Use  
     By default the server will serve at:
     > http://localhost:8080/
-    
-    You can make the server greets your name by calling:
-    > http://localhost:8080/hello?name=\<your\_name\>
 
 
 ### How do I contribute? ###

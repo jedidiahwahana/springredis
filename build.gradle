@@ -18,7 +18,7 @@ buildscript
 
 jar
 {
-	baseName = 'spring-hello'
+	baseName = 'spring-redis'
 	version = '0.1.0'
 }
 
@@ -46,5 +46,7 @@ configure(distclean)
 dependencies
 {
 	compile('org.springframework.boot:spring-boot-starter-web:1.4.3.RELEASE')
+    compile('org.springframework.data:spring-data-redis:1.8.0.RELEASE')
+    compile('redis.clients:jedis:2.9.0')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat:1.4.3.RELEASE')
 }
